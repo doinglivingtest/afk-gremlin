@@ -4,6 +4,10 @@
 
 A little gremlin drags you away from your desk and leaves a tidy note for your team. Give it a duration and a vibe; it hands you three ready-to-paste Slack messages, from *safe-and-professional* to *lovably chaotic*.
 
+<p align="center">
+  <img src="demo/afk-gremlin.gif" alt="AFK Gremlin demo" width="720">
+</p>
+
 ```
 You:  /afk-gremlin 2 hours, errands, funny
 

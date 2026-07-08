@@ -21,6 +21,9 @@ pnpm-debug.log*
 .claude/
 claude_desktop_config.json
 
+# Private launch/marketing notes
+LAUNCH.md
+
 # OS/editor files
 .DS_Store
 Thumbs.db

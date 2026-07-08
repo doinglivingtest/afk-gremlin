@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Demo-only reproduction of AFK Gremlin's output, used to record the promo GIF
+# with vhs (see demo/demo.tape). The real thing is the Claude Code skill in
+# skills/afk-gremlin/SKILL.md — this script just prints canned output with nice
+# timing so the recording is clean and deterministic.
+
+set -euo pipefail
+
+# Colors
+DIM=$'\033[2m'; BOLD=$'\033[1m'; RESET=$'\033[0m'
+PURPLE=$'\033[38;5;141m'; GREEN=$'\033[38;5;114m'; YELLOW=$'\033[38;5;179m'; PINK=$'\033[38;5;211m'
+
+req="${*:-a bit, honest-vague}"
+
+typeline() { printf '%s\n' "$1"; sleep 0.55; }
+
+printf '%s👻 AFK Gremlin%s  %s(%s)%s\n\n' "$PURPLE$BOLD" "$RESET" "$DIM" "$req" "$RESET"
+sleep 0.4
+typeline "${GREEN}1.${RESET} Hey team, stepping out to knock out some errands — AFK ~2 hours, back soon."
+typeline "${YELLOW}2.${RESET} Off to fight the errands boss level. AFK for about 2 hours."
+typeline "${PINK}3.${RESET} A real-life side quest just spawned. AFK ~2 hours; back once the quest is complete. 🗡️"
+printf '\n%sPick one, paste in Slack, vanish responsibly.%s\n' "$DIM" "$RESET"
