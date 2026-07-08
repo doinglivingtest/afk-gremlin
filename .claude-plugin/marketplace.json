@@ -1,0 +1,17 @@
+{
+  "name": "doinglivingtest",
+  "owner": {
+    "name": "Alejandro Tellez",
+    "email": "alejandrotellezm12@gmail.com"
+  },
+  "description": "Fun, work-safe Claude Code plugins by doinglivingtest.",
+  "plugins": [
+    {
+      "name": "afk-gremlin",
+      "source": "./",
+      "description": "Generate short, funny, work-safe Slack AFK/BRB messages.",
+      "category": "fun",
+      "keywords": ["slack", "afk", "brb", "away", "status", "fun", "productivity"]
+    }
+  ]
+}

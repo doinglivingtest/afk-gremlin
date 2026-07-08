@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "afk-gremlin",
+  "displayName": "AFK Gremlin",
+  "version": "0.1.0",
+  "description": "Generate short, funny, work-safe Slack AFK/BRB messages for errands, appointments, life admin, and random side quests.",
+  "author": {
+    "name": "Alejandro Tellez",
+    "email": "alejandrotellezm12@gmail.com",
+    "url": "https://github.com/doinglivingtest"
+  },
+  "homepage": "https://github.com/doinglivingtest/afk-gremlin",
+  "repository": "https://github.com/doinglivingtest/afk-gremlin",
+  "license": "MIT",
+  "keywords": ["slack", "afk", "brb", "away", "status", "fun", "productivity", "excuses"]
+}

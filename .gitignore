@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+bun.lockb
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Claude / local runtime
+.claude/
+claude_desktop_config.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build/cache
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# Python, in case you add scripts later
+__pycache__/
+*.pyc
+.venv/
+venv/
